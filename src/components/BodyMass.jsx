@@ -1,8 +1,10 @@
+//This is a practice file
+
 import { TextInput, Pressable, View } from 'react-native';
 import * as yup from 'yup';
 import { useFormik } from 'formik';
 import theme from '../theme';
-import Text from './Text'
+import Text from './Text';
 
 const styles = {
   container: {
@@ -16,7 +18,7 @@ const styles = {
   },
   notification: {
     marginLeft: 10,
-    marginTop: -5
+    marginTop: -5,
   },
   button: {
     backgroundColor: theme.colors.primary,
@@ -63,7 +65,9 @@ const BodyMassIndexForm = ({ onSubmit }) => {
         onChangeText={formik.handleChange('mass')}
       />
       {formik.touched.mass && formik.errors.mass && (
-        <Text style={styles.notification} color='warning'>{formik.errors.mass}</Text>
+        <Text style={styles.notification} color='warning'>
+          {formik.errors.mass}
+        </Text>
       )}
       <TextInput
         style={styles.textInput}
@@ -72,7 +76,9 @@ const BodyMassIndexForm = ({ onSubmit }) => {
         onChangeText={formik.handleChange('height')}
       />
       {formik.touched.height && formik.errors.height && (
-        <Text style={styles.notification} color='warning'>{formik.errors.height}</Text>
+        <Text style={styles.notification} color='warning'>
+          {formik.errors.height}
+        </Text>
       )}
       <Pressable style={styles.button} onPress={formik.handleSubmit}>
         <Text>Calculate</Text>
