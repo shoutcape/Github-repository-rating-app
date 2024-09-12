@@ -15,7 +15,9 @@ A React Native application for browsing and rating GitHub repositories.
 
 ## Photos
 
-
+<img src="https://github.com/user-attachments/assets/cc91ee82-e8b0-4635-b229-0bd7f0f19de5" width="250" height="auto" alt="Näyttökuva 2024-09-12 091632">
+<img src="https://github.com/user-attachments/assets/1395ce82-1a50-41f0-9708-0afb96d32eff" width="250" height="auto" alt="Näyttökuva 2024-09-12 091656">
+<img src="https://github.com/user-attachments/assets/c98e0292-2db0-43c1-8962-b75716022c8e" width="250" height="auto" alt="Näyttökuva 2024-09-12 091722">
 
 
 ## Project Structure
